@@ -34,37 +34,44 @@ export const Intro = () => {
       >
         <IntroCard
           icon={
-            <FormatAlignLeftIcon
-              sx={{ fontSize: "md", color: "primary.100" }}
-            />
+            <FormatAlignLeftIcon sx={{ fontSize: "md", color: "#ffffff" }} />
           }
           text={"Digitar textos"}
         />
         <IntroCard
-          icon={
-            <AudiotrackIcon sx={{ fontSize: "md", color: "primary.100" }} />
-          }
+          icon={<AudiotrackIcon sx={{ fontSize: "md", color: "#ffffff" }} />}
           text={"Enviar áudios"}
         />
         <IntroCard
           icon={
-            <MonetizationOnIcon sx={{ fontSize: "md", color: "primary.100" }} />
+            <MonetizationOnIcon sx={{ fontSize: "md", color: "#ffffff" }} />
           }
           text={"Consultar preços"}
         />
         <IntroCard
-          icon={<GoogleIcon sx={{ fontSize: "md", color: "primary.100" }} />}
+          icon={<GoogleIcon sx={{ fontSize: "md", color: "#ffffff" }} />}
           text={"Avaliar empresas no Google"}
         />
         <IntroCard
-          icon={<LanguageIcon sx={{ fontSize: "md", color: "primary.100" }} />}
+          icon={<LanguageIcon sx={{ fontSize: "md", color: "#ffffff" }} />}
           text={"Testar sites e apps"}
         />
       </Box>
-      <Typography level="h2">
-        Trabalhe de Qualquer Lugar – Não importa onde você esteja. Basta ter
-        acesso à internet e você já pode começar a ganhar dinheiro online.
-      </Typography>
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "flex-start",
+        }}
+      >
+        <Typography level="h2">
+          Trabalhe de Qualquer Lugar – Não importa onde você esteja.
+        </Typography>
+        <Typography level="h2">
+          Basta ter acesso à internet e você já pode começar a ganhar dinheiro
+          online.
+        </Typography>
+      </Box>
     </Box>
   );
 };

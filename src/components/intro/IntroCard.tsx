@@ -1,4 +1,4 @@
-import { Card, CardActions, CardContent, Typography } from "@mui/joy";
+import { Box, Card, CardContent, Typography } from "@mui/joy";
 import type React from "react";
 
 type IntroCardProps = {
@@ -17,10 +17,30 @@ export const IntroCard: React.FC<IntroCardProps> = ({ icon, text }) => {
         flexShrink: 0,
       }}
     >
-      <CardActions>
-        <Typography>{icon}</Typography>
-      </CardActions>
-      <CardContent>{text}</CardContent>
+      <Box
+        sx={{
+          bgcolor: "primary.100",
+          width: "25%",
+          borderRadius: "sm",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "flex-start",
+          padding: "10px",
+        }}
+      >
+        {icon}
+      </Box>
+      <CardContent
+        sx={{
+          display: "flex",
+          alignItems: "flex-start",
+          padding: "5px",
+        }}
+      >
+        <Typography level="body-md" sx={{ color: "#121212" }}>
+          {text}
+        </Typography>
+      </CardContent>
     </Card>
   );
 };

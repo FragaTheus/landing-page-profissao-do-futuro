@@ -40,7 +40,7 @@ export const theme = extendTheme({
     },
     "body-md": {
       fontFamily: '"Montserrat", sans-serif',
-      fontSize: "clamp(1rem, 2vmin, 1.125rem)",
+      fontSize: "clamp(0.9rem, 2vmin, 1.125rem)",
       fontWeight: 600,
     },
     "body-sm": {
