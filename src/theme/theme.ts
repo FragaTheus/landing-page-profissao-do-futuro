@@ -38,6 +38,11 @@ export const theme = extendTheme({
       fontSize: "clamp(1.2rem, 5vmin, 2.5rem)",
       fontWeight: 100,
     },
+    "body-lg": {
+      fontFamily: '"Montserrat", sans-serif',
+      fontSize: "clamp(1rem, 2.5vmin, 1.5rem)",
+      fontWeight: 600,
+    },
     "body-md": {
       fontFamily: '"Montserrat", sans-serif',
       fontSize: "clamp(0.9rem, 2vmin, 1.125rem)",
