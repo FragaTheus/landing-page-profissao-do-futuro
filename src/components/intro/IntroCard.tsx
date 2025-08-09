@@ -10,7 +10,12 @@ export const IntroCard: React.FC<IntroCardProps> = ({ icon, text }) => {
   return (
     <Card
       variant="outlined"
-      sx={{ width: "150px", height: "20svh", bgcolor: "transparent" }}
+      sx={{
+        width: "180px",
+        height: "180px",
+        bgcolor: "transparent",
+        flexShrink: 0,
+      }}
     >
       <CardActions>
         <Typography>{icon}</Typography>
