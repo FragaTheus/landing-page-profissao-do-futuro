@@ -4,6 +4,7 @@ import { SectionLayout } from "../section-layout/SectionLayout";
 import { Hero } from "../../components/hero/Hero";
 import { Intro } from "../../components/intro/Intro";
 import { Transformar } from "../../components/transformar-section/Transformar";
+import { Cta } from "../../components/cta/Cta";
 
 export const PageLayout = () => {
   return (
@@ -23,6 +24,9 @@ export const PageLayout = () => {
         </SectionLayout>
         <SectionLayout>
           <Intro />
+        </SectionLayout>
+        <SectionLayout>
+          <Cta />
         </SectionLayout>
         <SectionLayout>
           <Transformar />

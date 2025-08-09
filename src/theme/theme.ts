@@ -35,12 +35,12 @@ export const theme = extendTheme({
     },
     h2: {
       fontFamily: '"Bebas Neue", sans-serif',
-      fontSize: "clamp(1.2rem, 5vmin, 2.5rem)",
+      fontSize: "clamp(1.4rem, 5vmin, 2.5rem)",
       fontWeight: 100,
     },
     "body-lg": {
       fontFamily: '"Montserrat", sans-serif',
-      fontSize: "clamp(1rem, 2.5vmin, 1.5rem)",
+      fontSize: "clamp(1rem, 2.8vmin, 1.8rem)",
       fontWeight: 600,
     },
     "body-md": {
@@ -54,6 +54,7 @@ export const theme = extendTheme({
     },
   },
   fontSize: {
+    lg: "clamp(1.5rem, 3vmin, 2.5rem)",
     md: "clamp(1rem, 2vmin, 1.125rem)",
   },
   components: {
@@ -61,7 +62,6 @@ export const theme = extendTheme({
       styleOverrides: {
         root: {
           width: "90%",
-          height: "70svh",
           display: "flex",
           alignContent: "center",
           justifyContent: "center",
