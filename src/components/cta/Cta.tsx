@@ -5,7 +5,6 @@ import {
   Card,
   CardActions,
   CardContent,
-  Divider,
   Typography,
 } from "@mui/joy";
 import { useResContext } from "../../contexts/responsive-context/ResponsiveContext";
@@ -14,10 +13,10 @@ import { Star } from "@mui/icons-material";
 export const Cta = () => {
   const { isMobile } = useResContext();
   return (
-    <Card variant="outlined" sx={{ bgcolor: "transparent", height: "70svh" }}>
+    <Card variant="soft" sx={{ bgcolor: "transparent", height: "75svh" }}>
       <CardActions
         sx={{
-          bgcolor: "transparent",
+          bgcolor: "#121212",
           borderRadius: "sm",
           display: "flex",
           alignItems: "center",
@@ -33,11 +32,10 @@ export const Cta = () => {
           extra.
         </Typography>
       </CardActions>
-      <Divider />
       <CardContent
         sx={
           isMobile
-            ? { display: "flex", flexDirection: "collum" }
+            ? { display: "flex", flexDirection: "collum", gap: "20px" }
             : { display: "flex", flexDirection: "row" }
         }
       >
@@ -61,17 +59,21 @@ export const Cta = () => {
             textAlign={"center"}
             sx={{ color: "text.primary" }}
           >
-            tenho apenas 10 vagas
+            tenho apenas 10 vagas do curso
           </Typography>
           <Typography
             level="body-lg"
             textAlign={"center"}
             sx={{ color: "primary.100" }}
           >
-            faça tarefas em até 24.
+            Profissão do século 2.0.
           </Typography>
-          <Typography level="body-lg" textAlign={"center"}>
-            Método comprovado!
+          <Typography
+            level="body-lg"
+            textAlign={"center"}
+            sx={{ color: "#121212" }}
+          >
+            MÉTODO COMPROVADO!
           </Typography>
           {!isMobile && (
             <Button variant="solid" sx={{ mt: "20px" }}>
@@ -94,12 +96,12 @@ export const Cta = () => {
           flexDirection={"column"}
         >
           <Box display={"flex"}>
-            <Avatar></Avatar>
-            <Avatar></Avatar>
-            <Avatar></Avatar>
-            <Avatar></Avatar>
-            <Avatar></Avatar>
-            <Avatar></Avatar>
+            <Avatar size="sm" src="avatar-img1.jpg" />
+            <Avatar size="sm" src="avatar-img2.jpg" />
+            <Avatar size="sm" src="avatar-img3.jpg" />
+            <Avatar size="sm" src="avatar-img4.jpg" />
+            <Avatar size="sm" src="avatar-img5.jpg" />
+            <Avatar size="sm" src="avatar-img6.jpg" />
           </Box>
           <Typography level="body-lg" sx={{ color: "text.primary" }}>
             Mais de 1.533 pessoas ativadas.
