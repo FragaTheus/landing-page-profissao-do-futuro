@@ -13,7 +13,10 @@ import { Star } from "@mui/icons-material";
 export const Cta = () => {
   const { isMobile } = useResContext();
   return (
-    <Card variant="soft" sx={{ bgcolor: "transparent", height: "75svh" }}>
+    <Card
+      variant="soft"
+      sx={{ bgcolor: "background.surface", height: "75svh" }}
+    >
       <CardActions
         sx={{
           bgcolor: "#121212",
