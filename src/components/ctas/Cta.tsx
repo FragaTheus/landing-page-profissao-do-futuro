@@ -9,9 +9,11 @@ import {
 } from "@mui/joy";
 import { useResContext } from "../../contexts/responsive-context/ResponsiveContext";
 import { Star } from "@mui/icons-material";
+import { usePayContext } from "../../contexts/payment/ToPaymentContext";
 
 export const Cta = () => {
   const { isMobile } = useResContext();
+  const {toLink} = usePayContext();
   return (
     <Card
       variant="soft"
@@ -79,7 +81,7 @@ export const Cta = () => {
             MÉTODO COMPROVADO!
           </Typography>
           {!isMobile && (
-            <Button variant="solid" sx={{ mt: "20px" }}>
+            <Button onClick={()=> toLink()} variant="solid" sx={{ mt: "20px" }}>
               <Typography
                 level="body-lg"
                 textAlign={"center"}
@@ -120,7 +122,7 @@ export const Cta = () => {
             <Star sx={{ color: "primary.100", fontSize: "lg" }} />
           </Box>
           {isMobile && (
-            <Button variant="solid" sx={{ mt: "20px" }}>
+            <Button onClick={()=> toLink()} variant="solid" sx={{ mt: "20px" }}>
               <Typography
                 level="body-lg"
                 textAlign={"center"}

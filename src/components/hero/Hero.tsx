@@ -1,6 +1,8 @@
 import { Button, Card, CardContent, CardCover, Typography } from "@mui/joy";
+import { usePayContext } from "../../contexts/payment/ToPaymentContext";
 
 export const Hero = () => {
+  const {toLink} = usePayContext();
   return (
     <Card sx={{ width: "96%", height: "78svh", display: "flex" }}>
       <CardCover
@@ -37,7 +39,7 @@ export const Hero = () => {
           <Typography sx={{color: "text.secondary"}}> R$100 </Typography> A 
           <Typography sx={{color: "text.secondary"}}> R$500 </Typography> POR DIA PARA VOCÊ DIGITAR TEXTO E GRAVAR AUDIO!
         </Typography>
-        <Button sx={{ mt: "30px" }}>
+        <Button onClick={()=>toLink()} sx={{ mt: "30px" }}>
           <Typography level="h2" sx={{ color: "text.primary" }}>
             Comece agora
           </Typography>

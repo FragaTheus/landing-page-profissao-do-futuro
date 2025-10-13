@@ -1,8 +1,10 @@
 import { Box, Button } from "@mui/joy";
 import { ItemLayout } from "../transformar-section/ItemLayout";
 import { Typography } from "@mui/joy";
+import { usePayContext } from "../../contexts/payment/ToPaymentContext";
 
 export const Faq = ()=>{
+  const {toLink} = usePayContext();
     return(
         <Box
       width={"100%"}
@@ -41,8 +43,8 @@ export const Faq = ()=>{
             <Typography sx={{color: "text.secondary"}}> um clique </Typography>de distância.
         </Typography>
         <Typography level="h2">Não deixe essa <Typography sx={{color: "text.secondary"}}> oportunidade </Typography>passar!</Typography>
-        <Box width={"100%"} height={"20svh"}>
-        <Button><Typography level="body-md" sx={{color:"text.primary"}}>QUERO REALIZAR TAREFAS E FAZER RENDA EM CASA SEM APARECER!</Typography></Button>
+        <Box width={"100%"} height={"20svh"} display={"flex"} justifyContent={"center"} alignItems={"center"}>
+        <Button onClick={()=> toLink()}><Typography level="body-md" sx={{color:"text.primary"}}>QUERO REALIZAR TAREFAS E FAZER RENDA EM CASA SEM APARECER!</Typography></Button>
       </Box>
       </Box>
     </Box>

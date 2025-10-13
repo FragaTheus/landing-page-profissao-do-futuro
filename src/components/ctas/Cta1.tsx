@@ -8,9 +8,11 @@ import {
 } from "@mui/joy";
 import { useResContext } from "../../contexts/responsive-context/ResponsiveContext";
 import { Box } from "@mui/material";
+import { usePayContext } from "../../contexts/payment/ToPaymentContext";
 
 export const Cta1 = () => {
   const { isMobile } = useResContext();
+  const {toLink} = usePayContext();
   return (
     <Card
       variant="soft"
@@ -37,7 +39,7 @@ export const Cta1 = () => {
         <Box width={isMobile? "100%": "50%"} height={isMobile? "50%":"100%"} display={"flex"} flexDirection={"column"} alignItems={"center"} justifyContent={"center"}>
             <Typography level="h2">Preço Exclusivo:</Typography>
             <Typography level="h2">R$49,90</Typography>
-            <Button variant="solid" sx={{ mt: "20px" }}>
+            <Button onClick={()=> toLink()} variant="solid" sx={{ mt: "20px" }}>
               <Typography
                 level="body-lg"
                 textAlign={"center"}
