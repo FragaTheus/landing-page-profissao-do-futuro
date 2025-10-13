@@ -16,11 +16,11 @@ export const theme = extendTheme({
           solidActiveBg: "#B31218",
         },
         background: {
-          body: "#f5f5f5 ",
-          surface: "#ffffff",
+          body: "#121212",
+          surface: "#1E1E1E",
         },
         text: {
-          primary: "#121212",
+          primary: "#ffffff",
           secondary: "#E51927",
         },
       },
