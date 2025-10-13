@@ -28,17 +28,17 @@ export const Hero = () => {
         >
           Quanto vale sua liberdade financeira?
         </Typography>
-        <Typography level="h2" textAlign={"center"} sx={{ color: "#ffffff" }}>
+        <Typography level="h2" textAlign={"center"} sx={{ color: "text.primary" }}>
           Você sabia que é possível ganhar dinheiro na internet sem precisar
           vender nada, aparecer em vídeos ou ter um produto físico?
         </Typography>
-<Typography level="h2" textAlign={"center"} sx={{ color: "#ffffff", display: "flex" ,gap: "10px" }}>
+        <Typography level="h2" textAlign={"center"} sx={{ color: "text.primary",  gap: "10px" }}>
           DESCUBRA <Typography sx={{color: "text.secondary"}}>APLICATIVOS SECRETOS</Typography> QUE PAGAM DE 
-          <Typography sx={{color: "text.secondary"}}>R$100</Typography> A 
-          <Typography sx={{color: "text.secondary"}}>R$500</Typography> POR DIA PARA VOCÊ DIGITAR TEXTO E GRAVAR AUDIO!
+          <Typography sx={{color: "text.secondary"}}> R$100 </Typography> A 
+          <Typography sx={{color: "text.secondary"}}> R$500 </Typography> POR DIA PARA VOCÊ DIGITAR TEXTO E GRAVAR AUDIO!
         </Typography>
         <Button sx={{ mt: "30px" }}>
-          <Typography level="h2" sx={{ color: "#ffffff" }}>
+          <Typography level="h2" sx={{ color: "text.primary" }}>
             Comece agora
           </Typography>
         </Button>
