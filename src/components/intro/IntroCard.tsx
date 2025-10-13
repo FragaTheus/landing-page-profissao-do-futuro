@@ -37,7 +37,7 @@ export const IntroCard: React.FC<IntroCardProps> = ({ icon, text }) => {
           padding: "5px",
         }}
       >
-        <Typography level="body-md" sx={{ color: "#121212" }}>
+        <Typography level="body-md" sx={{ color: "text.primary" }}>
           {text}
         </Typography>
       </CardContent>
