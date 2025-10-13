@@ -5,6 +5,7 @@ import { Hero } from "../../components/hero/Hero";
 import { Intro } from "../../components/intro/Intro";
 import { Transformar } from "../../components/transformar-section/Transformar";
 import { Cta } from "../../components/cta/Cta";
+import { Cta1 } from "../../components/cta/Cta1";
 
 export const PageLayout = () => {
   return (
@@ -30,6 +31,9 @@ export const PageLayout = () => {
         </SectionLayout>
         <SectionLayout>
           <Transformar />
+        </SectionLayout>
+        <SectionLayout>
+          <Cta1/>
         </SectionLayout>
       </Box>
     </Box>
