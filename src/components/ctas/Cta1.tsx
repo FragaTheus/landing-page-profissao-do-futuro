@@ -48,7 +48,7 @@ export const Cta1 = () => {
             </Button>
         </Box>
         <Box width={isMobile? "100%":"50%"} height={isMobile? "50%":"100%"} display={"flex"} padding={"30px"} alignItems={"center"} justifyContent={"center"}>
-            <Typography level="body-lg" textAlign={"center"} sx={{color:"text.primary"}}>
+            <Typography level="body-md" textAlign={"center"} sx={{color:"text.primary"}}>
                 Sim, apenas R$49,90 por um eBook completo com tudo o que você precisa para
                 começar a ganhar dinheiro na internet hoje mesmo. Esse é um investimento que você
 r               ecupera rapidamente, só realizando as tarefas que ensinamos!
