@@ -4,8 +4,8 @@ import { SectionLayout } from "../section-layout/SectionLayout";
 import { Hero } from "../../components/hero/Hero";
 import { Intro } from "../../components/intro/Intro";
 import { Transformar } from "../../components/transformar-section/Transformar";
-import { Cta } from "../../components/cta/Cta";
-import { Cta1 } from "../../components/cta/Cta1";
+import { Cta } from "../../components/ctas/Cta";
+import { Cta1 } from "../../components/ctas/Cta1";
 
 export const PageLayout = () => {
   return (
