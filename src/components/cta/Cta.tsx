@@ -29,7 +29,7 @@ export const Cta = () => {
         <Typography
           level="h2"
           textAlign={"center"}
-          sx={{ color: "primary.100" }}
+          sx={{ color: "text.secondary" }}
         >
           Saiba como utilizar plataformas confiáveis para gerar uma boa renda
           extra.
@@ -74,7 +74,7 @@ export const Cta = () => {
           <Typography
             level="body-lg"
             textAlign={"center"}
-            sx={{ color: "#121212" }}
+            sx={{ color: "text.primary" }}
           >
             MÉTODO COMPROVADO!
           </Typography>
@@ -83,7 +83,7 @@ export const Cta = () => {
               <Typography
                 level="body-lg"
                 textAlign={"center"}
-                sx={{ color: "#ffffff" }}
+                sx={{ color: "text.primary" }}
               >
                 Quero uma renda extra.
               </Typography>
