@@ -32,15 +32,18 @@ export const Faq = ()=>{
         text={"Sim!"}  
         text1={"Todos os pagamentos são processados por plataformas seguras, garantindo a sua proteção."}
       />
-      <Box width={"90%"} display={"flex"} flexDirection={"column"}>
+      <Box width={"90%"} display={"flex"} flexDirection={"column"} alignItems={"center"} justifyContent={"center"}>
 <       Typography level="h1" sx ={{color: "text.secondary"}}>Agora é com você!</Typography>
-        <Typography level="h2">
+        <Typography level="h2" textAlign={"center"}>
             O primeiro passo para<Typography sx={{color: "text.secondary"}}> mudar </Typography>sua
             <Typography sx={{color: "text.secondary"}}> situação financeira </Typography>
             está a
             <Typography sx={{color: "text.secondary"}}> um clique </Typography>de distância.
         </Typography>
         <Typography level="h2">Não deixe essa <Typography sx={{color: "text.secondary"}}> oportunidade </Typography>passar!</Typography>
+        <Box width={"100%"} height={"20svh"}>
+        <Button><Typography level="body-md" sx={{color:"text.primary"}}>QUERO REALIZAR TAREFAS E FAZER RENDA EM CASA SEM APARECER!</Typography></Button>
+      </Box>
       </Box>
     </Box>
     );
