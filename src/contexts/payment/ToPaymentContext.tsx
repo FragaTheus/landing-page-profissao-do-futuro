@@ -1,4 +1,4 @@
-import { createContext } from "react";
+import { createContext, useContext } from "react";
 
     interface IToPaymentProp{
         toLink: ()=>void;
@@ -21,6 +21,10 @@ import { createContext } from "react";
                 {children}
             </PayContext.Provider>
         );
+    }
+
+    export const usePayContext =()=>{
+        return useContext(PayContext);
     }
 
      
