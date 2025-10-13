@@ -1,5 +1,4 @@
-import { Box, IconButton, Sheet, Typography } from "@mui/joy";
-import ContrastIcon from "@mui/icons-material/Contrast";
+import { Box,  Sheet, Typography } from "@mui/joy";
 import { useResContext } from "../../contexts/responsive-context/ResponsiveContext";
 
 export const Header = () => {
@@ -19,10 +18,6 @@ export const Header = () => {
       <Typography level="h2" sx={{ color: "text.secondary" }}>
         Profissão do século 2.0
       </Typography>
-      <></>
-      <IconButton>
-        <ContrastIcon sx={{ color: "#ffffff" }} />
-      </IconButton>
     </Sheet>
   );
 };
