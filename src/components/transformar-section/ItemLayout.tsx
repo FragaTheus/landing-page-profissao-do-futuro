@@ -5,7 +5,7 @@ type ItemLayoutProps = {
   title?: String;
   subtitle: String;
   text: String;
-  text1: String;
+  text1?: String;
 };
 
 export const ItemLayout: React.FC<ItemLayoutProps> = ({
@@ -37,7 +37,7 @@ export const ItemLayout: React.FC<ItemLayoutProps> = ({
           sx={{ color: "#ffffff", display: "flex", flexDirection: "column" }}
         >
           <Typography>{text}</Typography>
-          <Typography>{text1}</Typography>
+          {text1 && (<Typography>{text1}</Typography>)}
         </Typography>
       </Box>
     </>
