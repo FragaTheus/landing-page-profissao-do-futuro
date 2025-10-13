@@ -1,5 +1,5 @@
-import { useTheme } from "@mui/joy";
-import { useMediaQuery } from "@mui/material";
+import { useTheme } from "@mui/material";
+import {useMediaQuery} from "@mui/material";
 import { createContext, useContext } from "react";
 
 interface IResContextProps {
