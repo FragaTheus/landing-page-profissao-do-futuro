@@ -1,4 +1,4 @@
-"""# 🚀 Profissão do Século — Landing Page para Curso de Independência Financeira
+## 🚀 Profissão do Século — Landing Page para Curso de Independência Financeira
 
 > Landing page desenvolvida para o curso **Profissão do Século**, voltado à **independência financeira** e **ganhos pela internet**, com foco em **performance**, **conversão** e **melhores práticas de desenvolvimento front-end**.
 
