@@ -105,6 +105,7 @@ http://localhost:5173
 - Ajuste fino de responsividade e UX para aumentar taxa de conversão
 - Otimização de performance e boas práticas de SEO
 - Deploy completo via Vercel, incluindo configuração de domínio customizado
+- Controle de versão com Git, organizando commits e branches de forma eficiente
 
 ---
 
