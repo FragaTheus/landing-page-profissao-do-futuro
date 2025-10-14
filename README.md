@@ -42,7 +42,7 @@
 
 ```bash
 # Clone o repositório
-git clone https://github.com/FragaTheus/landing-page-profissao-do-seculo.git
+git clone https://github.com/FragaTheus/landing-page-profissao-do-seculo.git](https://github.com/FragaTheus/landing-page-profissao-do-futuro.git
 
 # Entre na pasta do projeto
 cd landing-page-profissao-do-seculo
