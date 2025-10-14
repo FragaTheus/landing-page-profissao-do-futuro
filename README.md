@@ -2,7 +2,7 @@
 
 > Landing page desenvolvida para o curso **Profissão do Século**, voltado à **independência financeira** e **ganhos pela internet**, com foco em **performance**, **conversão** e **melhores práticas de desenvolvimento front-end**.
 
-🔗 **Acesse o site online:** *(em breve — domínio em aprovação)*  
+🔗 **Acesse o site online:** .[profissaodoseculo.com.br](profissaodoseculo.com.br)
 📦 **Deploy:** [Vercel](https://vercel.com)  
 💻 **Repositório GitHub:** [github.com/FragaTheus/landing-page-profissao-do-seculo](https://github.com/FragaTheus/landing-page-profissao-do-seculo)
 
