@@ -33,9 +33,8 @@
 - 💰 **Página de vendas otimizada** para alta conversão  
 - 📱 **Design responsivo** adaptado para dispositivos móveis  
 - ⚡ **Carregamento rápido** e estrutura leve  
-- 🎯 **Seções estratégicas** de gatilhos mentais e benefícios do curso  
 - 🧩 **Componentes reutilizáveis** e código limpo    
-- 🔄 **Integração com Google Ads e Google Analytics** para acompanhamento de campanhas e métricas de conversão
+
 ---
 
 ## 💻 Como Rodar Localmente
@@ -95,6 +94,7 @@ http://localhost:5173
 ## 🚀 Melhorias Futuras 
 
 - Implementar SEO avançado para buscas orgânicas
+- Integrar com Google Ads e Google Analytics para acompanhamento de campanhas e métricas de conversão
 
 ---
 
