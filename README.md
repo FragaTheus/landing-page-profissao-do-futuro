@@ -40,6 +40,13 @@ Todo o desenvolvimento foi voltado à performance, usabilidade e boas práticas 
 
 ## 💻 Como Rodar Localmente
 
+## ⚙️ Pré-requisitos
+
+Antes de rodar o projeto localmente, certifique-se de ter instalado:
+
+- **Node.js** (versão 18 ou superior recomendada)  
+- **Yarn** (gerenciador de pacotes)
+
 ```bash
 # Clone o repositório
 git clone https://github.com/FragaTheus/landing-page-profissao-do-seculo.git](https://github.com/FragaTheus/landing-page-profissao-do-futuro.git
