@@ -1,6 +1,8 @@
 ## 🚀 Profissão do Século — Landing Page para Curso de Independência Financeira
 
-> Landing page desenvolvida para o curso **Profissão do Século**, voltado à **independência financeira** e **ganhos pela internet**, com foco em **performance**, **conversão** e **melhores práticas de desenvolvimento front-end**.
+Landing page desenvolvida com React, TypeScript e Joy UI, para o curso Profissão do Século.
+O projeto foi criado para substituir o antigo site feito no Canva, que não permitia a realização de campanhas e impulsionamentos online. Com a nova versão, o objetivo foi criar um site estruturado para marketing digital, permitindo a integração com o Google Ads e Analytics, além de garantir melhor desempenho e otimização para SEO.
+Todo o desenvolvimento foi voltado à performance, usabilidade e boas práticas de front-end, proporcionando uma experiência moderna e eficiente tanto para o cliente quanto para o usuário final.
 
 🔗 **Acesse o site online:** [profissaodoseculo.com.br](https://www.profissaodoseculo.com.br/)
 📦 **Deploy:** [Vercel](https://vercel.com)  
@@ -30,10 +32,9 @@
 
 ## 🧠 Principais Funcionalidades
 
-- 💰 **Página de vendas otimizada** para alta conversão  
-- 📱 **Design responsivo** adaptado para dispositivos móveis  
-- ⚡ **Carregamento rápido** e estrutura leve  
-- 🧩 **Componentes reutilizáveis** e código limpo    
+- 📱 **Design responsivo** adaptado para dispositivos móveis.  
+- ⚡ **Carregamento rápido** e estrutura leve.
+- 🧩 **Componentes reutilizáveis** para melhor desempenho.   
 
 ---
 
@@ -100,12 +101,13 @@ http://localhost:5173
 
 ## 💡 Aprendizados e Desafios
 
-- Construção de uma landing page moderna utilizando React
-- Uso de TypeScript e Joy UI para garantir tipagem e consistência visual
-- Ajuste fino de responsividade e UX para aumentar taxa de conversão
-- Otimização de performance e boas práticas de SEO
-- Deploy completo via Vercel, incluindo configuração de domínio customizado
-- Controle de versão com Git, organizando commits e branches de forma eficiente
+- Uso de **React** e de seus **componentes reutilizáveis** para criar uma interface modular e escalável, com foco em desempenho e manutenibilidade.  
+- Aplicação de **TypeScript**, utilizando **hooks** para gerenciamento de estado e **contexts** para fornecer funcionalidades globais (como o controle de navegação entre páginas).  
+- **Design desenvolvido do zero**, com integração e uso do **Joy UI (Material UI)**, garantindo consistência visual e alto nível de personalização.  
+- Ajuste fino de **responsividade** e **UX**, proporcionando uma navegação mais fluida e confortável, facilitando a compreensão do conteúdo da página.  
+- **Otimização de performance** e aplicação de **boas práticas de SEO**, visando melhores resultados em tráfego orgânico.  
+- **Deploy completo** via **Vercel**, incluindo **configuração de domínio personalizado** pela **Hostinger**.  
+- **Controle de versão** com **Git**, mantendo commits e branches bem organizados ao longo do desenvolvimento.
 
 ---
 
