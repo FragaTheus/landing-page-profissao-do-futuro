@@ -96,7 +96,7 @@ http://localhost:5173
 
 | Versão Desktop                           | Versão Mobile                          |
 | ---------------------------------------- | -------------------------------------- |
-| [![Desktop do site](https://github.com/user-attachments/assets/707338d2-6bff-412d-87e8-52b54ec4e21d)](https://github.com/user-attachments/assets/707338d2-6bff-412d-87e8-52b54ec4e21d) | [![Mobile do site](https://github.com/user-attachments/assets/5f28c831-ae07-400e-a251-a69803ec8c23)](https://github.com/user-attachments/assets/5f28c831-ae07-400e-a251-a69803ec8c23) |
+| [![Desktop do site](https://github.com/user-attachments/assets/36799dae-9205-4055-804a-0e1e6659ed4c)](https://github.com/user-attachments/assets/36799dae-9205-4055-804a-0e1e6659ed4c) | [![Mobile do site](https://github.com/user-attachments/assets/db443025-f947-4504-88d4-42c382ae71b9)](https://github.com/user-attachments/assets/db443025-f947-4504-88d4-42c382ae71b9) |
 
 ---
 
