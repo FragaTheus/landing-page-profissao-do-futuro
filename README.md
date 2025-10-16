@@ -92,6 +92,14 @@ http://localhost:5173
 
 ---
 
+## 🖼️ Visual do Projeto 
+
+| Versão Desktop                           | Versão Mobile                          |
+| ---------------------------------------- | -------------------------------------- |
+| [![Desktop do site](https://github.com/user-attachments/assets/707338d2-6bff-412d-87e8-52b54ec4e21d)](https://github.com/user-attachments/assets/707338d2-6bff-412d-87e8-52b54ec4e21d) | [![Mobile do site](https://github.com/user-attachments/assets/5f28c831-ae07-400e-a251-a69803ec8c23)](https://github.com/user-attachments/assets/5f28c831-ae07-400e-a251-a69803ec8c23) |
+
+---
+
 ## 🚀 Melhorias Futuras 
 
 - Implementar SEO avançado para buscas orgânicas
